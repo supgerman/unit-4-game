@@ -1,0 +1,16 @@
+
+
+.flex-container {
+    display: flex;
+  }
+.crystal {
+ height: 100px;
+ width: auto;
+  }
+.number-box {
+background-color: green;
+height: 100px;
+width: 200px;
+display: flex;
+clear: both;
+  }

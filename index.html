@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap and CSS-->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystals Collector Game</title>
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+<script src="assets/javascript/game.js"></script>
+    <div class="container" style="display: inline-block">
+        <div class="jumbotron">
+            <div class="header">  
+                <h2>Crystals Collector!</h2>                
+            </div>
+            <div class="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
+            <Section class="play">
+                <div class="number-box">
+                    <h2 id="random-number">2</h2>
+                </div>
+                <div class="win-lose">
+                    <h3 class="win">0</h3>
+                    <h3 class="lose">0</h3>
+                </div>
+            </Section>
+            <div class="flex-container">
+                <span> 
+                <img src="assets/images/red crystal.jpg"  alt="red crystal" class="crystal" id="red"> 
+                <img src="assets/images/blue crystal.jpg"  alt="blue crystal" class="crystal" id="blue" >
+                <img src="assets/images/yellow crystal.jpg"  alt="yellow crystal" class="crystal" id="yellow">
+                <img src="assets/images/green crystal.jpg"  alt="green crystal" class="crystal" id="green">
+                </span>
+            </div>
+            </Section>
+            <div class="your-score">
+                <h3>Your total score is:</h3>
+            </div>
+            <div class="counter">
+                <h2 class="score">3</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
